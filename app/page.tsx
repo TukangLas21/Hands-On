@@ -4,11 +4,14 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="hero">
-      <div className="detel">
-        <h1>Hi! I'm <span>Aria Judhistira</span></h1>
-        <p>This is my personal portfolio website</p>
+      <div className="home_text">
+        <h1>Hi! I'm <span>Aria</span></h1>
+        <p>
+          This is my personal portfolio website for my <br>
+        </br>
+          SPARTA Hands On Project.</p>
       </div>
-      <div className="images">
+      <div className="home_images">
         <img src="/blueblob.png" className="blob"></img>
         <img src="/foto_diri.png" className="photo"></img>
       </div>
