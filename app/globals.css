@@ -59,11 +59,6 @@ nav {
   align-items: center;
 }
 
-nav ul li {
-  display: inline-block;
-  margin: 10px 20px;
-}
-
 nav a {
   color: #fff;
   margin-right: 1rem;
@@ -124,3 +119,33 @@ nav a:hover {
   height: 100%;
 }
 
+.about_text {
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+.about_text h1 {
+  font-size: 70px;
+  color: #4682A9;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  bottom: 50px;
+  font-weight: bold;
+}
+
+.about_text h2 {
+  font-size: 50px;
+  color: #4682A9;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  bottom: 50px;
+  font-weight: bold;
+}
+
+.about_text p {
+  color: #555;
+  margin-left: 50px;
+  bottom: 50px;
+  font-size: 20px;
+}
