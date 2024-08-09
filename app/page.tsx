@@ -3,10 +3,15 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is where you can showcase your work and skills.</p>
-      <Link href="/projects">View my projects</Link>
+    <div className="hero">
+      <div className="detel">
+        <h1>Hi! I'm <span>Aria Judhistira</span></h1>
+        <p>This is my personal portfolio website</p>
+      </div>
+      <div className="images">
+        <img src="/blueblob.png" className="blob"></img>
+        <img src="/foto_diri.png" className="photo"></img>
+      </div>
     </div>
   );
 }

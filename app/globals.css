@@ -24,6 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #F6F4EB;
 }
 
 @layer utilities {
@@ -32,13 +36,91 @@ body {
   }
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hero{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #F6F4EB;
+}
+
 nav {
-  background: #333;
+  background: #749BC2;
   padding: 1rem;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
 }
 
 nav a {
   color: #fff;
   margin-right: 1rem;
+  margin-left: 1rem;
   text-decoration: none;
+  font-weight: bold;
 }
+
+nav a:hover {
+  color: #4682A9;
+}
+
+.detel {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  bottom: 50px;
+}
+
+span {
+  color: #4682A9;
+  font-weight: bold;
+}
+
+p {
+  color: #555;
+  line-height: 22px;
+  margin-left: 50px;
+  bottom: 50px;
+}
+
+.images{
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  bottom: 200px;
+  right: 150px;
+}
+
+.images img {
+  position: absolute;
+  left: 20%;
+}
+
+.blob {
+  top: -50px;
+  transform: rotate(90deg);
+}
+
+.photo {
+  bottom: 100px;
+  height: 100%;
+}
+
