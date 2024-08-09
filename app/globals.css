@@ -149,3 +149,16 @@ nav a:hover {
   bottom: 50px;
   font-size: 20px;
 }
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 50px;
+}
+
+th, td {
+  border: 2px solid;
+  text-align: center;
+  padding: 10px;
+}

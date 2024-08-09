@@ -10,7 +10,31 @@ export default function About() {
           </p>
 
           <h2>Interests</h2>
-          <p></p>
+          <p> Right now, I am interested in:</p>
+          <table>
+            <tr>
+              <th>Software Engineering</th>
+              <th>Data Science</th>
+              <th>AI</th>
+            </tr>
+            <tr>
+              <td>
+                Currently, I'm interested in web development, 
+                particularly front-end development, although
+                I also found back-end development to be interesting
+                as well, since it relates to data and servers.
+              </td>
+              <td>
+                I have always been fascinated by data and how it truly
+                affects the population, especially involving Big Data.
+              </td>
+              <td>
+                Even now I rely on ChatGPT to assist me in making
+                this portfolio website. It's really cool to think about the 
+                potential of AI and it's future impact to the world.
+              </td>
+            </tr>
+          </table>
         </div>
         
         
