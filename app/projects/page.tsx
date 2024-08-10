@@ -17,6 +17,15 @@ export default function Projects() {
               equipments for the Basketball Competition.</p>
           </ul>
         </div>
+
+        <br></br>
+        
+        <h3>Achievements</h3>
+        <p>
+          Right now I don&apos;t really have any achievements to be proud of T-T. But I&apos;m excited and thrilled to explore
+          <br></br>
+          the competitive world of programming!
+        </p>
       </div>
     );
   }

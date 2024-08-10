@@ -195,6 +195,15 @@ th, td {
   margin-bottom: 10px;
 }
 
+.text h3 {
+  font-size: 40px;
+  color: #4682A9;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  bottom: 50px;
+  font-weight: bold;
+}
+
 .text p {
   font-size: 20px;
   margin-left: 50px;
