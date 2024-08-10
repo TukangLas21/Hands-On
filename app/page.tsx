@@ -7,7 +7,7 @@ export default function Home() {
       <div className="home_text">
         <h1>Hi! I'm <span>Aria</span></h1>
         <p>
-          This is my personal portfolio website for my <br>
+          And this is my personal portfolio website for my <br>
         </br>
           SPARTA Hands On Project.</p>
       </div>
