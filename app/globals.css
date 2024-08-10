@@ -66,6 +66,7 @@ nav a {
   margin-left: 1rem;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -186,4 +187,24 @@ th, td {
   margin-left: 50px;
   bottom: 50px;
   font-weight: bold;
+}
+
+.contact_text h2 {
+  font-size: 23px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.contact_text p {
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.contact_text a {
+  color: #749BC2;
+  transition: color 0.3s ease;
+}
+
+.contact_text a:hover {
+  color: #4682A9;
 }
