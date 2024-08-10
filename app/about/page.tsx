@@ -1,16 +1,17 @@
 export default function About() {
     return (
-      <div className="hero">
-        <div className="about_text">
-          <h1>About Me</h1>
-          <p>
-            I am a second-year student currently enrolled in Bandung Institute of Technology, majoring in Informatics Engineering. <br>
-          </br>
-            I was born in Jakarta, at 25 September 2005, but I lived most of my life in BSD, South Tangerang.
-          </p>
+      <div className="about_text">
+        <h1>About Me</h1>
+        <p>
+          I am a second-year student currently enrolled in Bandung Institute of Technology, majoring in Informatics Engineering. <br>
+        </br>
+          I was born in Jakarta, at 25 September 2005, but I lived most of my life in BSD, South Tangerang.
+        </p>
 
-          <h2>Interests</h2>
-          <p> Right now, I am interested in:</p>
+        <h2>Interests</h2>
+        <p> Right now, I am interested in:</p>
+        
+        <div>
           <table>
             <tr>
               <th>Software Engineering</th>
@@ -37,7 +38,29 @@ export default function About() {
           </table>
         </div>
         
-        
+        <br></br>
+
+        <h2>Talents</h2>
+        <p>
+          I was quite an avid musician during my junior and senior high school years.
+          I played the piano, the violin, and most prominently,  
+          <br></br>
+          the flute, where I played in the Santa Ursula BSD Orchestra and the Canisius Wind Ensemble.
+        </p>
+
+        <div className="image_table">
+          <table>
+            <tr>
+              <td>
+                <img src='/orkes_smp.png' className="foto_smp"></img>
+              </td>
+              <td>
+                <img src='/flute_cc.jpeg' className="foto_sma"></img>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
+
     );
   }
