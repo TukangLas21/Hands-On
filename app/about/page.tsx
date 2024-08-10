@@ -52,10 +52,10 @@ export default function About() {
           <table>
             <tr>
               <td>
-                <img src='/orkes_smp.png' className="foto_smp"></img>
+                <img src="/orkes_smp.png" className="foto_smp"></img>
               </td>
               <td>
-                <img src='/flute_cc.jpeg' className="foto_sma"></img>
+                <img src="/flute_cc.jpeg" className="foto_sma"></img>
               </td>
             </tr>
           </table>
