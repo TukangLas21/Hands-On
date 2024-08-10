@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Contact() {
     return (
-      <div className="contact_text">
+      <div className="text">
         <h1>Contact Me</h1>
         <h2>Feel free to contact me for any inquiries in the following:</h2>
         <p>Email: <Link href='mailto:19623160@std.stei.itb.ac.id'>19623160@std.stei.itb.ac.id</Link></p>

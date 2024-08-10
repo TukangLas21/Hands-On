@@ -3,9 +3,9 @@ export default function About() {
       <div className="about_text">
         <h1>About Me</h1>
         <p>
-          I am a second-year student currently enrolled in Bandung Institute of Technology, majoring in Informatics Engineering. <br>
+          My name is Aria Judhistira. I am a second-year student currently enrolled in Bandung Institute of Technology, majoring in Informatics Engineering. <br>
         </br>
-          I was born in Jakarta, at 25 September 2005, but I lived most of my life in BSD, South Tangerang.
+          I was born in Jakarta, at 25 September 2005, but I lived most of my life at Serpong, South Tangerang.
         </p>
 
         <h2>Interests</h2>

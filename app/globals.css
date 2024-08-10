@@ -157,7 +157,7 @@ nav a:hover {
 
 table {
   table-layout: fixed;
-  width: 70%;
+  width: 90%;
   margin-top: 2%;
   margin-left: 50px;
 }
@@ -175,12 +175,12 @@ th, td {
   margin-left: 50px;
 }
 
-.contact_text {
+.text {
   margin-left: 3%;
   margin-top: 5%;
 }
 
-.contact_text h1 {
+.text h1 {
   font-size: 70px;
   color: #4682A9;
   margin-bottom: 20px;
@@ -189,22 +189,33 @@ th, td {
   font-weight: bold;
 }
 
-.contact_text h2 {
+.text h2 {
   font-size: 23px;
   margin-left: 50px;
   margin-bottom: 10px;
 }
 
-.contact_text p {
+.text p {
   font-size: 20px;
   margin-left: 50px;
 }
 
-.contact_text a {
+.text a {
   color: #749BC2;
   transition: color 0.3s ease;
 }
 
-.contact_text a:hover {
+.text a:hover {
   color: #4682A9;
+}
+
+.text ul li {
+  font-size: 20px;
+  margin-left: 100px;
+  list-style-type: circle;
+}
+
+.list_projects p {
+  font-size: 20px;
+  margin-left: 100px;
 }
