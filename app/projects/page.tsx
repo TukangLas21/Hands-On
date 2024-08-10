@@ -4,7 +4,7 @@ export default function Projects() {
     return (
       <div className="text">
         <h1>My Projects and Experiences</h1>
-        <h2>These are projects and experiences that I've been involved with in the past:</h2>
+        <h2>These are projects and experiences that I&apos;ve been involved with in the past:</h2>
         <div className="list_projects">
           <ul>
             <li>Project: Programming Basics - <Link href="https://github.com/Labpro-21/if1210-2024-tubes-k11-c" passHref={true}>OWCA Monster Game</Link></li>

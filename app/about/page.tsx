@@ -20,7 +20,7 @@ export default function About() {
             </tr>
             <tr>
               <td>
-                Currently, I'm interested in web development, 
+                Currently, I&apos;m interested in web development, 
                 particularly front-end development, although
                 I also found back-end development to be interesting
                 as well, since it relates to data and servers.
@@ -31,8 +31,8 @@ export default function About() {
               </td>
               <td>
                 Even now I rely on ChatGPT to assist me in making
-                this portfolio website. It's really cool to think about the 
-                potential of AI and it's future impact to the world.
+                this portfolio website. It&apos;s really cool to think about the 
+                potential of AI and it&apos;s future impact to the world.
               </td>
             </tr>
           </table>

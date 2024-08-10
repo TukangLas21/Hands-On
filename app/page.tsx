@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="hero">
       <div className="home_text">
-        <h1>Hi! I'm <span>Aria</span></h1>
+        <h1>Hi! I&apos;m <span>Aria</span></h1>
         <p>
           And this is my personal portfolio website for my <br>
         </br>
