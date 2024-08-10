@@ -8,7 +8,7 @@ export default function Home() {
         <p>
           And this is my personal portfolio website for my <br>
         </br>
-          SPARTA Hands On Project.</p>
+          SPARTA 2023 Hands On Project.</p>
       </div>
       <div className="home_images">
         <img src="/blueblob.png" className="blob"></img>
