@@ -12,13 +12,6 @@ export default function Home() {
       </div>
       <div className="home_images">
         <Image 
-          src="/blueblob.png" 
-          className="blob" 
-          alt="Blue Blob" 
-          width={2500}
-          height={2500}
-        />
-        <Image 
           src="/foto_diri.png" 
           className="photo" 
           alt="Self Photo" 

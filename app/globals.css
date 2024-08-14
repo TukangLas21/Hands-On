@@ -110,17 +110,7 @@ nav a:hover {
   position: absolute;
 }
 
-.blob {
-  right: 10px;
-  transform: rotate(90deg);
-  left: 30%;
-  top: 20%;
-}
 
-.photo {
-  top: 50px;
-  left: 20%;
-}
 
 .about_text {
   margin-left: 3%;
