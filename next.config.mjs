@@ -1,13 +1,8 @@
-/**
-* @type {import('next').NextConfig}
-*/
+// @ts-check
+ 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  images: {
-    loader: "akamai",
-    path: "",
-  },
-  assetPrefix: "./",
-};
-
-export default nextConfig;
+  /* config options here */
+}
+ 
+module.exports = nextConfig
