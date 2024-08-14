@@ -11,8 +11,20 @@ export default function Home() {
           SPARTA 2023 Hands On Project.</p>
       </div>
       <div className="home_images">
-        <img src="/blueblob.png" className="blob"></img>
-        <img src="/foto_diri.png" className="photo"></img>
+        <Image 
+          src="/blueblob.png" 
+          className="blob" 
+          alt="Blue Blob" 
+          width={2500}
+          height={2500}
+        />
+        <Image 
+          src="/foto_diri.png" 
+          className="photo" 
+          alt="Self Photo" 
+          width={750}
+          height={750}
+        />
       </div>
     </div>
   );

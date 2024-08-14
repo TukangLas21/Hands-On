@@ -111,7 +111,6 @@ nav a:hover {
 }
 
 .blob {
-  height: 120%;
   right: 10px;
   transform: rotate(90deg);
   left: 30%;
@@ -120,7 +119,6 @@ nav a:hover {
 
 .photo {
   top: 50px;
-  height: 120%;
   left: 20%;
 }
 
@@ -166,13 +164,6 @@ th, td {
   border: 0px;
   text-align: center;
   padding: 10px;
-}
-
-.image_table table {
-  table-layout: fixed;
-  width: 90%;
-  margin-top: 2%;
-  margin-left: 50px;
 }
 
 .text {

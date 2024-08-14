@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
     return (
       <div className="about_text">
@@ -11,7 +13,7 @@ export default function About() {
         <h2>Interests</h2>
         <p> Right now, I am interested in:</p>
         
-        <div>
+        <div className="interest_table">
           <table>
             <tr>
               <th>Software Engineering</th>
@@ -50,14 +52,28 @@ export default function About() {
 
         <div className="image_table">
           <table>
-            <tr>
-              <td>
-                <img src="/orkes_smp.png" className="foto_smp"></img>
-              </td>
-              <td>
-                <img src="/flute_cc.jpeg" className="foto_sma"></img>
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>
+                  <Image 
+                    src="/orkes_smp.png" 
+                    className="foto_smp" 
+                    alt="Photo FLute SMP" 
+                    width={759}
+                    height={784}
+                  />
+                </td>
+                <td>
+                  <Image 
+                    src="/flute_cc.png" 
+                    className="foto_sma" 
+                    alt="Photo Flute SMA" 
+                    width={736}
+                    height={1030}
+                  />
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
